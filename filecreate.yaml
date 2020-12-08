@@ -3,7 +3,7 @@
   tasks:
   - name: Create file
     file:
-      path: /home/ansible/testfile
+      path: /etc/testfile
       state: touch
   - name: Create Directory
     file:
